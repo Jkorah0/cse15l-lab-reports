@@ -8,6 +8,8 @@ First click this link: https://sdacs.ucsd.edu/~icc/index.php, then follow this t
 
 In order to do the lab, we will need to download VS Code. To do this click this https://code.visualstudio.com/ and follow the steps depending on the OS of your device. The final product once you open VS code should look like this: 
 
+![Image](vs.png)
+
 **Step 3: Remote connections**
 
 To start remote connections you will need to complete the following steps in order:
@@ -49,6 +51,8 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11`
 
 Now your computer, which we call the "client", is connected to a computer in the basement, which we call the "server", depending on the connection. It should look similiar to this:
 
+![Image](Remote.png)
+
 **Step 4: Running Various Commands**
 
 There are a number of commands we can use such as `cd, ls, pwd, mkdir`, and `cp`. Try these specific commands and view their respective outputs:
@@ -62,3 +66,5 @@ There are a number of commands we can use such as `cd, ls, pwd, mkdir`, and `cp`
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
 The output should look like this:
+
+![Image](Commands.png)
