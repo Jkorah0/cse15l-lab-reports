@@ -2,11 +2,11 @@
 ---
 **Step 1: Account Set Up**
 
-First click this link: https://sdacs.ucsd.edu/~icc/index.php, then follow this tutorial to set up your password: (https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view)
+First click [here](https://sdacs.ucsd.edu/~icc/index.php), then follow this [tutorial](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view) to set up your password: 
 
 **Step 2: Downloading VS Code**
 
-In order to do the lab, we will need to download VS Code. To do this click this https://code.visualstudio.com/ and follow the steps depending on the OS of your device. The final product once you open VS code should look like this: 
+In order to do the lab, we will need to download VS Code. To do this click [this](https://code.visualstudio.com/) and follow the steps depending on the OS of your device. The final product once you open VS code should look like this: 
 
 ![Image](vs.png)
 
@@ -57,14 +57,15 @@ Now your computer, which we call the "client", is connected to a computer in the
 
 There are a number of commands we can use such as `cd, ls, pwd, mkdir`, and `cp`. Try these specific commands and view their respective outputs:
 
-* `cd ~`
-* `cd`
-* `ls -lat`
-* `ls -a`
-* `ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc` replacing `abc` with another person's cse15 username.
-* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
-* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+* `cd ~` - navigates you to your home directory 
+* `cd` - displays the current directory
+* `ls -lat`- shows the files and directories in the current working directory sorted by modification time, with recently modified files or directories listed first
+* `ls -a`- shows all files and directories in the current working directory, including hidden files and directories
+* `ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc` replacing `abc` with another person's cse15 username.-  shows the contents of /home/linux/ieng6/cs15lsp23/cs15lsp23abc directory listed in the terminal. If the directory does not exist or you do not have the necessary permissions to access it, you will see an error message
+* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`-copies the file hello.txt from the directory /home/linux/ieng6/cs15lsp23/public to your home directory and overwrites any files with the same file name that already exists in your home directory 
+* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`- displays the contents of the file hello.txt, located in the directory /home/linux/ieng6/cs15lsp23/public
 
 The output should look like this:
 
 ![Image](Commands.png)
+This picture is showing that you have accessed and are running commands on the remote server. 
